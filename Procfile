@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 englishdictionary.wsgi:application 
+web: waitress-serve --port=$PORT englishdictionary.wsgi:application 
